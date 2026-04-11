@@ -1,0 +1,35 @@
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Models & runs
+models/*.pt
+models/*.onnx
+models/*.h5
+runs/
+wandb/
+
+# Benchmark outputs (keep directory, ignore content)
+results/*.json
+!results/.gitkeep
+
+# Dataset artifacts
+data/**/images/
+data/**/labels/
+data/**/*.zip
+data/**/*.tar
+data/**/*.tar.gz
+!data/kaggle/main.ipynb
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
