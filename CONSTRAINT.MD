@@ -13,6 +13,12 @@ tantangan dunia nyata di domain tersebut. Baca dan pahami
 constraint track Anda dengan seksama sebelum memulai
 pengembangan model.
 
+Teknis Tambahan:
+a. Proposal Lengkap di @PROPOSAL.MD
+b. File model jadi: file bobot model (.pt/.h5/dll) siap pakai
+c. Dataset (Wajib pisah) : folder train_data, dan test_data terpisah untuk validasi kebocoran data (data leakage)
+d. Notebook training (training.ipynb): kode asli proses pelatiha. Log/output training harus terlihat jelas.
+e. Notebook inference (inference.ipynb): script bersih untuk memuat model dan melakukan prediksi.
 
 Constraint Umum
 1.Struktur File : Wajib mengumpulkan: proposal.pdf, training.ipynb
