@@ -1,0 +1,19 @@
+{
+  "run_name": "yolov12s_seg_rescuenet_v1",
+  "model": "YOLO11s-seg",
+  "dataset": "RescueNet",
+  "imgsz": 640,
+  "train_images": 720,
+  "val_images": 449,
+  "test_images": 450,
+  "classes": 8,
+  "best_checkpoint_mb": 19.549,
+  "onnx_mb": 19.401,
+  "constraint_budget": {
+    "det_model_mb": 18.093,
+    "seg_model_mb": 19.401,
+    "total_mb": 37.494,
+    "c_a1_limit_mb": 50.0,
+    "c_a1_pass": true
+  }
+}

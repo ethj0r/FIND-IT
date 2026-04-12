@@ -4,7 +4,9 @@
       "Bash(python -c \"import ast; ast.parse\\(open\\('src/benchmarks/bench_cpu.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
       "Bash(python -c \"import ast; ast.parse\\(open\\('/Users/jae/Developer/FINDIT/src/benchmarks/bench_pipeline.py'\\).read\\(\\)\\); print\\('pipeline syntax OK'\\)\")",
       "Bash(python -c \"import json; json.loads\\(open\\('/Users/jae/Developer/FINDIT/notebooks/00_kaggle_cpu_benchmark.ipynb'\\).read\\(\\)\\); print\\('notebook JSON OK'\\)\")",
-      "Bash(python -c ':*)"
+      "Bash(python -c ':*)",
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" --max-time 10 \"https://kkb-production.jupyter-proxy.kaggle.net/k/310845110/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwidHlwIjoiSldUIn0..y_uLx-KEmus0oy5kiG9e9w.17eXDbMyKt-GKW6qPars6RYsBj1p-tnM-xXk7XsACeIKlhgquKCym70X59lsEz35b7iLP8dhCPiCc8cWxZytotp2xuhxbs7ptEAkT-NPqzYAvYTVdH7D2HM3ItHDnojf7BUmSlbNXl5FAlrIiwj01xpMfgVtxlyX3d6HUBb0XXVbFDsTeDIggb4AEZTSdgdUtcbNKqnk_3M1AOkkkrbrTeEOI4hhoAunaotf2-uMQPhFNdXjR-A1kZ-7fA76YdDm.3u8rQqqKitFzrP7tMY6ClQ/proxy/api/kernels\")",
+      "WebFetch(domain:springernature.figshare.com)"
     ]
   }
 }
